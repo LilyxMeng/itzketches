@@ -1,0 +1,151 @@
+.contact-form {
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 5fr 0.5fr;
+    grid-template-rows: 1.5fr 1fr 0.5fr 1fr 0.5fr 1fr 2fr 0.5fr 1fr;
+    grid-column-gap: 15px;
+    grid-template-areas:
+    ". title title ."
+    ". fname lname ."
+    ". fname-input lname-input ."
+    ". email  email ."
+    ". email-input email-input ."
+    ". message message ."
+    ". message-input message-input ."
+    ". . . ."
+    ". submit submit .";
+}
+
+input, textarea {
+    border-width: 0px;
+}
+
+.contact-title {
+    grid-area: title;
+}
+
+.contact-text {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.contact-instagram {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.instagram {
+    text-decoration: underline;
+}
+
+.fname-title {
+    grid-area: fname;
+    font-size: 18px;
+}
+
+.lname-title {
+    grid-area: lname;
+    font-size: 18px;
+}
+
+.fname-input {
+    background: #F0F0F0;
+    grid-area: fname-input;
+    font-size: 16px;
+}
+
+.lname-input {
+    background: #F0F0F0;
+    grid-area: lname-input;
+    font-size: 16px;
+}
+
+.email-title {
+    grid-area: email;
+    font-size: 18px;
+}
+
+.email-input {
+    background: #F0F0F0;
+    grid-area: email-input;
+    font-size: 16px;
+}
+
+.message-title {
+    grid-area: message;
+    font-size: 18px;
+}
+
+.message-input {
+    background: #F0F0F0;
+    grid-area: message-input;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.contact-submit {
+    grid-area: submit;
+    font-size: 16px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .contact-text {
+        font-size: 22px;
+    }
+    
+    .contact-instagram {
+        font-size: 15px;
+    }
+
+    .fname-title {
+        grid-area: fname;
+        font-size: 15px;
+    }
+    
+    .lname-title {
+        grid-area: lname;
+        font-size: 15px;
+    }
+    
+    .fname-input {
+        grid-area: fname-input;
+        font-size: 13px;
+    }
+    
+    .lname-input {
+        grid-area: lname-input;
+        font-size: 13px;
+    }
+    
+    .email-title {
+        grid-area: email;
+        font-size: 15px;
+    }
+    
+    .email-input {
+        grid-area: email-input;
+        font-size: 13px;
+    }
+    
+    .message-title {
+        grid-area: message;
+        font-size: 15px;
+    }
+    
+    .message-input {
+        grid-area: message-input;
+        font-size: 13px;
+    }
+
+    .contact-submit {
+        grid-area: submit;
+        font-size: 13px;
+
+    }
+}
+
+
+
+
+

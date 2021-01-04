@@ -1,0 +1,115 @@
+.home {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr 5fr 0fr 5fr;
+    grid-gap: 0px 10px;
+    grid-template-areas:
+    ". title title title title ."
+    ". . . . . ."
+    ". product1 product1info product2 product2info ."
+    ". line1 line1 line2 line2 ."
+    ". product3 product3info product4 product4info .";   
+    align-items: center; 
+}
+
+.product-img {
+    margin-left: 50px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.price {
+    font-size: 18px;
+    text-decoration: underline;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.featured {
+    grid-area: title;
+    text-align: center;
+    font-size: 25px;
+    color:#273b48;
+}
+
+.amongus-mafuyu {
+    grid-area: product1;    
+}
+
+.amongus-mafuyu-title {
+    grid-area: product1info;
+}
+
+.amongus-uenoyama {
+    grid-area: product2;
+}
+
+.amongus-uenoyama-title {
+    grid-area: product2info;
+}
+
+.mafuyu-uenoyama {
+    grid-area: product3;
+}
+
+.mafuyu-uenoyama-title {
+    grid-area: product3info;
+}
+
+hr { display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid;
+    color:#273b48;
+    width: 80%;
+}
+
+.line1 {
+    grid-area: line1;
+    align-self: center;
+}
+
+.line2 {
+    grid-area: line2;
+    align-self: center;
+}
+
+.line3 {
+    grid-area: line3;
+    align-self: center;
+}
+
+@media only screen and (max-width: 750px) {
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 5fr 1fr;
+        grid-template-rows: 0fr 0fr 0fr 0fr 1fr 0fr 0fr 1fr 0fr 0fr;
+        grid-gap: 0px 0px;
+        grid-template-areas:
+        ". title ."
+        ". product1 ." 
+        ". product1info ." 
+        "line1 line1 line1"
+        ". product2 ."
+        ". product2info ."
+        "line2 line2 line2"
+        ". product3 ."
+        ". product3info ."
+        "line3 line3 line3";
+    }
+
+    .product-img {
+        margin-left: 0px;
+        transform: scale(0.8);
+    }
+}
+
