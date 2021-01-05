@@ -1,8 +1,8 @@
 .products {
     display: grid;
     grid-template-columns: 0.5fr 5fr 5fr 5fr 0.5fr;
-    grid-template-rows: 0fr 5fr 1fr 5fr 1fr;
-    grid-gap: 20px 20px;
+    grid-template-rows: 0.5fr 5fr 1fr 5fr 1fr;
+    grid-gap: 20px 30px;
     grid-template-areas:
     ". . . . ."
     ". product1 product2 product3 . "
