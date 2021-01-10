@@ -73,6 +73,15 @@
     grid-area: product6info;
 }
 
+.product-links {
+    color:#273b48;
+    text-decoration: none;
+}
+
+.product-links:hover {
+    color: white;
+}
+
 @media only screen and (max-width: 750px) {
 
     .products {
