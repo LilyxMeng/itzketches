@@ -1,150 +1,143 @@
 .contact-form {
     display: grid;
-    grid-template-columns: 0.5fr 5fr 5fr 0.5fr;
-    grid-template-rows: 1.5fr 1fr 0.6fr 1fr 0.6fr 1fr 2fr 0.5fr 1fr;
-    grid-column-gap: 15px;
-    grid-template-areas:
-    ". title title ."
-    ". fname lname ."
-    ". fname-input lname-input ."
-    ". email  email ."
-    ". email-input email-input ."
-    ". message message ."
-    ". message-input message-input ."
-    ". . . ."
-    ". submit submit .";
-}
-
-input, textarea {
-    border-width: 0px;
-}
-
-.contact-title {
-    grid-area: title;
-}
-
-.contact-text {
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 40px 6.5%;
+  }
+  
+  .contact-child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .contact-title {
     font-size: 25px;
+    font-weight: bold;
     text-decoration: underline;
-}
-
-.contact-instagram {
+  }
+  
+  .contact-instagram {
     font-size: 18px;
     font-weight: normal;
-}
-
-.instagram {
+  }
+  
+  .social-links {
+    color: black;
     text-decoration: underline;
-}
-
-.fname-title {
-    grid-area: fname;
+  }
+  
+  .social-links:hover {
+    color: white;
+  }
+  
+  .name {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 25px 0;
+  }
+  
+  .fname {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .lname {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+  
+  .fname-title {
     font-size: 18px;
-}
-
-.lname-title {
-    grid-area: lname;
+    padding: 0 0 5px 0;
+  }
+  
+  .lname-title {
     font-size: 18px;
-}
-
-.fname-input {
-    background: #F0F0F0;
-    grid-area: fname-input;
+    padding: 0 0 5px 0;
+  }
+  
+  .name-input {
+    background: #f0f0f0;
     font-size: 16px;
-}
-
-.lname-input {
-    background: #F0F0F0;
-    grid-area: lname-input;
-    font-size: 16px;
-}
-
-.email-title {
-    grid-area: email;
+  }
+  
+  .email {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 25px 0;
+  }
+  
+  .email-child {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+  }
+  
+  .email-title {
     font-size: 18px;
-}
-
-.email-input {
-    background: #F0F0F0;
-    grid-area: email-input;
+    padding: 0 0 5px 0;
+  }
+  
+  .email-input {
+    background: #f0f0f0;
     font-size: 16px;
-}
-
-.message-title {
+  }
+  
+  .message {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 30px 0;
+  }
+  
+  .message-child {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+  }
+  
+  .message-title {
     grid-area: message;
     font-size: 18px;
-}
-
-.message-input {
-    background: #F0F0F0;
+    padding: 0 0 5px 0;
+  }
+  
+  .message-input {
+    background: #f0f0f0;
     grid-area: message-input;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-}
-
-.contact-submit {
-    grid-area: submit;
-    font-size: 16px;
-    height: 40px;
-}
-
-@media only screen and (max-width: 750px) {
-
-    .contact-text {
-        font-size: 22px;
-    }
-    
-    .contact-instagram {
-        font-size: 15px;
-    }
-
-    .fname-title {
-        grid-area: fname;
-        font-size: 15px;
-    }
-    
-    .lname-title {
-        grid-area: lname;
-        font-size: 15px;
-    }
-    
-    .fname-input {
-        grid-area: fname-input;
-        font-size: 13px;
-    }
-    
-    .lname-input {
-        grid-area: lname-input;
-        font-size: 13px;
-    }
-    
-    .email-title {
-        grid-area: email;
-        font-size: 15px;
-    }
-    
-    .email-input {
-        grid-area: email-input;
-        font-size: 13px;
-    }
-    
-    .message-title {
-        grid-area: message;
-        font-size: 15px;
-    }
-    
-    .message-input {
-        grid-area: message-input;
-        font-size: 13px;
-    }
-
-    .contact-submit {
-        grid-area: submit;
-        font-size: 13px;
-    }
-}
-
-
-
-
-
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 30px 0;
+  }
+  
+  .submit-child {
+    display: flex;
+    flex-direction: column;
+    width: 87%;
+  }
+  
+  .submit-title {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  
+  input {
+    border: 0px;
+    padding: 5px 0 5px 3px;
+  }
+  
+  textarea {
+    border: 0px;
+    padding: 5px 0 5px 3px;
+  }
+  

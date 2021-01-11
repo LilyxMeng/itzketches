@@ -11,31 +11,72 @@
 </head>
 
 <body>
-    <header class="menu-btns">
-        <button class="home-btn"><a href="index.html">ITZKETCHES</a></button>
-        <button class="products-btn"><a href="products.html">Products</a></button>
-        <button class="faq-btn"><a href="faq.html">FAQ</a></button>
-        <button class="contact-btn"><a href="contact.html">Contact</a></button>
-        <button class="cart-btn"><a href="cart.html">Cart</a></button>
-        <img class="banner-img" src="images/banner.png">
-    </header>
-    
-    <main class="contact">
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" id="navbar-logo">ITZKETCHES</a>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="products.html" class="navbar-links">Products</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="faq.html" class="navbar-links">FAQ</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="contact.html" class="navbar-links">Contact</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="cart.html" class="navbar-links">Cart</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <img class="banner-img" src="images/banner.png">
+
+    <main class="contact-page">
         <form class="contact-form" action="#">
-            <h1 class="contact-title">
-                <div class="contact-text">Contact Us!</div>
-                <div class="contact-instagram">Fill in the form below or send a DM on <a class="instagram"
-                        target="_blank" href="https://www.instagram.com/itzketches/">Instagram</a>
-            </h1>
-            <p class="fname-title">First Name</p>
-            <p class="lname-title">Last Name</p>
-            <input class="fname-input" type="text">
-            <input class="lname-input" type="text">
-            <p class="email-title">Email</p>
-            <input class="email-input" type="text">
-            <p class="message-title">Message</p>
-            <textarea class="message-input" type="text"></textarea>
-            <button class="contact-submit" type="submit" name="submit">Submit</button>
+
+
+            <div class="contact">
+                <div class="contact-child">
+                    <p class="contact-title">Contact Us!</p>
+                    <p class="contact-instagram">Fill in the form below or send a DM on <a class="social-links"
+                            target="_blank" href="https://www.instagram.com/itzketches/">Instagram</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="name">
+                <div class="fname">
+                    <p class="fname-title">First Name</p>
+                    <input class="name-input" type="text">
+                </div>
+                <div class="lname">
+                    <p class="lname-title">Last Name</p>
+                    <input class="name-input" type="text">
+                </div>
+            </div>
+
+            <div class="email">
+                <div class="email-child">
+                    <p class="email-title">Email</p>
+                    <input class="email-input" type="text">
+                </div>
+            </div>
+
+            <div class="message">
+                <div class="message-child">
+                    <p class="message-title">Message</p>
+                    <textarea class="message-input" type="text"></textarea>
+                </div>
+            </div>
+
+            <div class="submit">
+                <div class="submit-child">
+                    <button class="submit-title" type="submit" name="submit">Submit</button>
+                </div>
+            </div>
+
         </form>
     </main>
 </body>

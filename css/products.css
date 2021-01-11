@@ -1,101 +1,100 @@
 .products {
-    display: grid;
-    grid-template-columns: 0.5fr 5fr 5fr 5fr 0.5fr;
-    grid-template-rows: 0.5fr 5fr 1fr 5fr 1fr;
-    grid-gap: 20px 30px;
-    grid-template-areas:
+  display: grid;
+  grid-template-columns: 0.5fr 5fr 5fr 5fr 0.5fr;
+  grid-template-rows: 0.5fr 5fr 1fr 5fr 1fr;
+  grid-gap: 20px 30px;
+  grid-template-areas:
     ". . . . ."
-    ". product1 product2 product3 . "
-    ". product1info  product2info  product3info ."
-    ". product4  product5  product6 ."
-    ". product4info product5info  product6info .";    
+    ". prod1pic prod2pic prod3pic . "
+    ". prod1title prod2title  prod3title ."
+    ". prod4pic  prod5pic  prod6pic ."
+    ". prod4title prod5title  prod6title .";
 }
 
 .product-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .product-title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .price {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.mafuyu-uenoyama {
-    grid-area: product1;
+#prod1pic {
+  grid-area: prod1pic;
 }
 
-.mafuyu-uenoyama-title {
-    grid-area: product1info;
+#prod1title {
+  grid-area: prod1title;
 }
 
-.mafuyu {
-    grid-area: product2;
+#prod2pic {
+  grid-area: prod2pic;
 }
 
-.mafuyu-title {
-    grid-area: product2info;
+#prod2title {
+  grid-area: prod2title;
 }
 
-.haruki {
-    grid-area: product3;
+#prod3pic {
+  grid-area: prod3pic;
 }
 
-.haruki-title {
-    grid-area: product3info;
+#prod3title {
+  grid-area: prod3title;
 }
 
-.amongus-uenoyama {
-    grid-area: product4;
+#prod4pic {
+  grid-area: prod4pic;
+}
+#prod4title {
+  grid-area: prod4title;
 }
 
-.amongus-uenoyama-title {
-    grid-area: product4info;
+#prod5pic {
+  grid-area: prod5pic;
 }
 
-.amongus-mafuyu {
-    grid-area: product5;    
+#prod5title {
+  grid-area: prod5title;
 }
 
-.amongus-mafuyu-title {
-    grid-area: product5info;
+#prod6pic {
+  grid-area: prod6pic;
 }
 
-.kuroo {
-    grid-area: product6;
-}
-
-.kuroo-title {
-    grid-area: product6info;
+#prod6title {
+  grid-area: prod6title;
 }
 
 .product-links {
-    color:#273b48;
-    text-decoration: none;
+  color: #273b48;
+  text-decoration: none;
 }
 
 .product-links:hover {
-    color: white;
+  color: white;
 }
 
 @media only screen and (max-width: 750px) {
 
-    .products {
-        padding-top: 20px;
-        display: grid;
-        grid-template-columns: 0.5fr 5fr 5fr 0.5fr;
-        grid-template-rows: 5fr 1fr 5fr 1fr 5fr 1fr;
-        grid-gap: 30px 20px;
-        grid-template-areas:
-        ". product1 product2 ."
-        ". product1info  product2info ."
-        ". product3 product4 ."
-        ". product3info product4info ."
-        ". product5 product6 ."
-        ". product5info  product6info .";
-    }
+  .products {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 5fr 0.5fr;
+    grid-template-rows: 5fr 1fr 5fr 1fr 5fr 1fr;
+    grid-gap: 30px 20px;
+    grid-template-areas:
+      ". prod1pic prod2pic ."
+      ". prod1title  prod2title ."
+      ". prod3pic prod4pic ."
+      ". prod3title prod4title ."
+      ". prod5pic prod6pic ."
+      ". prod5title  prod6title .";
+  }
 }
