@@ -1,15 +1,16 @@
 .faq {
     display: grid;
+    padding-bottom: 15px;
 }
 
 .container1 {
     display: flex;
-    padding: 0 0 30px 40px;
+    padding: 0 0 15px 5%;
     text-align: center;
 }
 
 .bkground1 {
-    background:  #c7beb9;
+    background: #c7beb9;
     width: 25%;
     height: 100%;
     border-radius: 25px;
@@ -17,12 +18,14 @@
 
 .container2 {
     display: flex;
-    padding: 0 0 30px 40px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0;
 }
 
-.bkground2{
-    background:  #c7beb9;
-    width: 95%;
+.bkground2 {
+    background: #c7beb9;
+    width: 90%;
     height: 100%;
     border-radius: 25px;
 }
@@ -58,7 +61,7 @@
 }
 
 .social-links {
-    color:black;
+    color: black;
     text-decoration: underline;
 }
 
