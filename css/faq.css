@@ -1,6 +1,7 @@
 .faq {
     display: grid;
     padding-bottom: 15px;
+    width: 100%;
 }
 
 .container1 {
