@@ -1,143 +1,158 @@
 .contact-form {
-    display: grid;
-  }
-  
-  .contact {
-    display: flex;
-    flex-direction: column;
-    margin: 0 0 40px 6.5%;
-  }
-  
-  .contact-child {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .contact-title {
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
-  .contact-instagram {
-    font-size: 18px;
-    font-weight: normal;
-  }
-  
-  .social-links {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  .social-links:hover {
-    color: white;
-  }
-  
-  .name {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 25px 0;
-  }
-  
-  .fname {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-  }
-  
-  .lname {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-  }
-  
-  .fname-title {
-    font-size: 18px;
-    padding: 0 0 5px 0;
-  }
-  
-  .lname-title {
-    font-size: 18px;
-    padding: 0 0 5px 0;
-  }
-  
-  .name-input {
-    background: #f0f0f0;
-    font-size: 16px;
-  }
-  
-  .email {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 25px 0;
-  }
-  
-  .email-child {
-    display: flex;
-    flex-direction: column;
-    width: 87%;
-  }
-  
-  .email-title {
-    font-size: 18px;
-    padding: 0 0 5px 0;
-  }
-  
-  .email-input {
-    background: #f0f0f0;
-    font-size: 16px;
-  }
-  
-  .message {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 30px 0;
-  }
-  
-  .message-child {
-    display: flex;
-    flex-direction: column;
-    width: 87%;
-  }
-  
-  .message-title {
-    grid-area: message;
-    font-size: 18px;
-    padding: 0 0 5px 0;
-  }
-  
-  .message-input {
-    background: #f0f0f0;
-    grid-area: message-input;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 18px;
-  }
-  
-  .submit {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 30px 0;
-  }
-  
-  .submit-child {
-    display: flex;
-    flex-direction: column;
-    width: 87%;
-  }
-  
-  .submit-title {
-    font-size: 18px;
-    padding: 5px 0;
-  }
-  
-  input {
-    border: 0px;
-    padding: 5px 0 5px 3px;
-  }
-  
-  textarea {
-    border: 0px;
-    padding: 5px 0 5px 3px;
-  }
-  
+  display: grid;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 40px 6.5%;
+}
+
+.contact-child {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-instagram {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.social-links {
+  color: black;
+  text-decoration: underline;
+}
+
+.social-links:hover {
+  color: white;
+}
+
+.name {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 25px 0;
+}
+
+.fname {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.lname {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.fname-title {
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
+
+.lname-title {
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
+
+#fname-input {
+  background: #f0f0f0;
+  font-size: 16px;
+}
+
+#lname-input {
+  background: #f0f0f0;
+  font-size: 16px;
+}
+
+.email {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 25px 0;
+}
+
+.email-child {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+}
+
+.email-title {
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
+
+#email-input {
+  background: #f0f0f0;
+  font-size: 16px;
+}
+
+.message {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 30px 0;
+}
+
+.message-child {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+}
+
+.message-title {
+  grid-area: message;
+  font-size: 18px;
+  padding: 0 0 5px 0;
+}
+
+#message-input {
+  background: #f0f0f0;
+  grid-area: message-input;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 30px 0;
+}
+
+.submit-child {
+  display: flex;
+  flex-direction: column;
+  width: 87%;
+}
+
+.submit-title {
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+input {
+  border: 0px;
+  padding: 5px 0 5px 3px;
+}
+
+textarea {
+  border: 0px;
+  padding: 5px 0 5px 3px;
+}
+
+.end-of-form {
+  padding: 0 0 25px 0;
+}
+
+
+#finished-form {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}

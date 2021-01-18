@@ -49,35 +49,42 @@
             <div class="name">
                 <div class="fname">
                     <p class="fname-title">First Name</p>
-                    <input class="name-input" type="text">
+                    <input id="fname-input" type="text">
                 </div>
                 <div class="lname">
                     <p class="lname-title">Last Name</p>
-                    <input class="name-input" type="text">
+                    <input id="lname-input" type="text">
                 </div>
             </div>
 
             <div class="email">
                 <div class="email-child">
                     <p class="email-title">Email</p>
-                    <input class="email-input" type="text">
+                    <input id="email-input" type="text">
                 </div>
             </div>
 
             <div class="message">
                 <div class="message-child">
                     <p class="message-title">Message</p>
-                    <textarea class="message-input" type="text"></textarea>
+                    <textarea id="message-input" type="text"></textarea>
                 </div>
             </div>
 
             <div class="submit">
                 <div class="submit-child">
-                    <button class="submit-title" type="submit" name="submit">Submit</button>
+                    <button class="submit-title" type="button" name="submit" onclick="finishedForm()">Submit</button>
                 </div>
             </div>
 
+            <div class="end-of-form">
+                <p id="finished-form"></p>
+            </div>
+
         </form>
+
+        <script type="text/javascript" src="js/contact.js"></script>
+
     </main>
 </body>
 
