@@ -54,22 +54,26 @@
 
 .fname-title {
   font-size: 18px;
-  padding: 0 0 5px 0;
+  padding: 0 0 8px 0;
 }
 
 .lname-title {
   font-size: 18px;
-  padding: 0 0 5px 0;
+  padding: 0 0 8px 0;
 }
 
 #fname-input {
   background: #f0f0f0;
-  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 #lname-input {
   background: #f0f0f0;
-  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 .email {
@@ -86,12 +90,14 @@
 
 .email-title {
   font-size: 18px;
-  padding: 0 0 5px 0;
+  padding: 0 0 8px 0;
 }
 
 #email-input {
   background: #f0f0f0;
-  font-size: 16px;
+  border-radius: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
 }
 
 .message {
@@ -107,14 +113,14 @@
 }
 
 .message-title {
-  grid-area: message;
   font-size: 18px;
-  padding: 0 0 5px 0;
+  padding: 0 0 8px 0;
 }
 
 #message-input {
   background: #f0f0f0;
-  grid-area: message-input;
+  border-radius: 5px;
+  height: 145px;
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
@@ -133,23 +139,22 @@
 
 .submit-title {
   font-size: 18px;
-  padding: 5px 0;
+  padding: 8px 0;
 }
 
 input {
   border: 0px;
-  padding: 5px 0 5px 3px;
+  padding: 10px 0 10px 6px;
 }
 
 textarea {
   border: 0px;
-  padding: 5px 0 5px 3px;
+  padding: 10px 0 10px 6px;
 }
 
 .end-of-form {
   padding: 0 0 25px 0;
 }
-
 
 #finished-form {
   text-align: center;
