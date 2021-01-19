@@ -48,16 +48,10 @@
 }
 
 .product-links {
-    color: #273b48;
+    color: #0e1b30;
     text-decoration: none;
 }
 
 .product-links:hover {
-    color: white;
-}
-
-@media only screen and (max-width: 750px) {
-    .product {
-        display: grid;
-    }
+    color: #2f5b8d;
 }
