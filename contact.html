@@ -34,8 +34,8 @@
     <img class="banner-img" src="images/banner.png">
 
     <main class="contact-page">
-        <form class="contact-form" method="POST" action="php/contact.php">
 
+        <form class="contact-form" method="GET" action="#">
 
             <div class="contact">
                 <div class="contact-child">
@@ -49,25 +49,25 @@
             <div class="name">
                 <div class="fname">
                     <p class="fname-title">First Name</p>
-                    <input id="fname-input" type="text">
+                    <input name="fname" id="fname-input" type="text" value="">
                 </div>
                 <div class="lname">
                     <p class="lname-title">Last Name</p>
-                    <input id="lname-input" type="text">
+                    <input name="lname" id="lname-input" type="text" value="">
                 </div>
             </div>
 
             <div class="email">
                 <div class="email-child">
                     <p class="email-title">Email</p>
-                    <input id="email-input" type="text">
+                    <input name="email" id="email-input" type="text" value="">
                 </div>
             </div>
 
             <div class="message">
                 <div class="message-child">
                     <p class="message-title">Message</p>
-                    <textarea id="message-input" type="text"></textarea>
+                    <textarea name ="message" id="message-input" type="text" value=""></textarea>
                 </div>
             </div>
 
