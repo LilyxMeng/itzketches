@@ -1,74 +1,53 @@
 .home {
-    display: grid;
-    grid-template-columns: 0.5fr 3fr 3fr 3fr 3fr 0.5fr;
-    grid-template-rows: 1fr 0fr -1fr 5fr;
-    grid-gap: 0px 10px;
+    align-items: center;
     justify-content: center;
-    align-items: center; 
-    margin-bottom: 20px;
-    grid-template-areas:
-    ". title title title title ."
-    ". . . . . ."
-    ". prod1pic prod1title prod2pic prod2title ."
-    ". prod3pic prod3title prod4pic prod4title .";   
+    margin: 0 50px;
 }
 
-.product-img {
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.product-title {
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: 40px;
-    margin-right: 10px;
-}
-
-.price {
-    font-size: 18px;
-    text-decoration: underline;
-    margin-left: 40px;
-    margin-right: 10px;
+.title-container {
+    text-align: center;
+    padding: 0 0 30px 0;
 }
 
 #home-title {
-    grid-area: title;
-    text-align: center;
     font-size: 30px;
-    color:#273b48;
+    color: #273b48;
 }
 
-#prod1pic {
-    grid-area: prod1pic;    
+.index-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    align-content: center;
 }
 
-#prod1title {
-    grid-area: prod1title;
+.product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.9);
 }
 
-#prod2pic {
-    grid-area: prod2pic;
+.product-img {
+    height: 100%;
+    width: 100%;
+    padding-right: 5%;
 }
 
-#prod2title {
-    grid-area: prod2title;
+.product-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 8px;
 }
 
-#prod3pic {
-    grid-area: prod3pic;
-}
-
-#prod3title {
-    grid-area: prod3title;
+.price {
+    font-size: 20px;
+    text-decoration: underline;
+    padding-top: 5px;
 }
 
 .product-links {
-    color:#273b48;
+    color: #273b48;
     text-decoration: none;
 }
 
@@ -77,30 +56,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-
-    .home {
+    .product-item {
         display: grid;
-        grid-template-columns: 1fr 5fr 1fr;
-        grid-template-rows: 0fr 0fr 0fr 0fr 0fr 0fr 0fr;
-        grid-gap: 0px 0px;
-        grid-template-areas:
-        ". title ."
-        ". prod1pic ." 
-        ". prod1title ." 
-        ". prod2pic ."
-        ". prod2title ."
-        ". prod3pic ."
-        ". prod3title .";
-    }
-
-    .product-img {
-        margin-left: 0px;
-        margin-top: -20px;
-        transform: scale(0.8);
-    }
-
-    .product-title {
-        margin-top: -65px;
     }
 }
-
