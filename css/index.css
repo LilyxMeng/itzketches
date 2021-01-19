@@ -14,15 +14,15 @@
     color: #273b48;
 }
 
-.index-products {
+.products {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     align-content: center;
 }
 
-.product-item {
-    display: flex;
+.product {
+    display: grid;
     justify-content: center;
     align-items: center;
     transform: scale(0.9);
@@ -31,19 +31,20 @@
 .product-img {
     height: 100%;
     width: 100%;
-    padding-right: 5%;
 }
 
 .product-title {
     font-size: 20px;
     font-weight: bold;
     padding-top: 8px;
+    text-align: center;
 }
 
 .price {
     font-size: 20px;
     text-decoration: underline;
     padding-top: 5px;
+    text-align: center;
 }
 
 .product-links {
@@ -56,7 +57,7 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .product-item {
+    .product {
         display: grid;
     }
 }
