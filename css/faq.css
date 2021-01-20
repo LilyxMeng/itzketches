@@ -11,7 +11,7 @@
 }
 
 .bkground1 {
-    background: #c7beb9;
+    background: #b3aba6;
     width: 25%;
     height: 100%;
     border-radius: 25px;
@@ -25,10 +25,14 @@
 }
 
 .bkground2 {
-    background: #c7beb9;
+    background: #b3aba6;
     width: 90%;
     height: 100%;
     border-radius: 25px;
+}
+
+.item {
+    padding: 5px 0;
 }
 
 .faq-title {
