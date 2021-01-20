@@ -1,7 +1,9 @@
-.faq {
+.faq-page {
     display: grid;
     padding-bottom: 15px;
     width: 100%;
+    padding-top: 130px;
+    color: #0e1b30;
 }
 
 .container1 {
@@ -40,7 +42,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     padding: 15px 0;
-    color: #0e1b30;
 }
 
 .faq-subtitle {
@@ -48,7 +49,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     padding: 20px 25px 10px 25px;
-    color: #0e1b30;
 }
 
 .question {
@@ -56,7 +56,6 @@
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
     padding: 0 25px;
-    color: #0e1b30;
 }
 
 .answer {
@@ -64,7 +63,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding: 5px 25px 20px 25px;
-    color: #0e1b30;
 }
 
 .answer-list {
@@ -73,11 +71,9 @@
     font-weight: 400;
     padding-left: 60px;
     padding-bottom: 20px;
-    color: #0e1b30;
 }
 
 .social-links {
-    color: #0e1b30;
     text-decoration: underline;
 }
 
