@@ -15,12 +15,15 @@
 }
 
 .contact-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
   font-weight: bold;
   text-decoration: underline;
+  padding-bottom: 5px;
 }
 
 .contact-instagram {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
@@ -53,11 +56,13 @@
 }
 
 .fname-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
 
 .lname-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
@@ -65,14 +70,12 @@
 #fname-input {
   background: #f0f0f0;
   border-radius: 5px;
-  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
 #lname-input {
   background: #f0f0f0;
   border-radius: 5px;
-  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
@@ -89,6 +92,7 @@
 }
 
 .email-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
@@ -96,7 +100,6 @@
 #email-input {
   background: #f0f0f0;
   border-radius: 5px;
-  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
@@ -113,6 +116,7 @@
 }
 
 .message-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
@@ -121,7 +125,6 @@
   background: #f0f0f0;
   border-radius: 5px;
   height: 145px;
-  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
 
@@ -137,6 +140,7 @@
 }
 
 .submit-title {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 8px 0;
 }
