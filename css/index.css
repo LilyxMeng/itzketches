@@ -11,8 +11,6 @@
 
 #home-title {
     font-size: 30px;
-    color: #0e1b30;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
 
@@ -39,7 +37,6 @@
 }
 
 .product-title {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: 400;
     padding-top: 8px;
@@ -47,7 +44,6 @@
 }
 
 .price {
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 20px;
     padding-top: 5px;

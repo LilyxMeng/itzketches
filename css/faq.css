@@ -3,7 +3,6 @@
     padding-bottom: 15px;
     width: 100%;
     padding-top: 130px;
-    color: #0e1b30;
 }
 
 .container1 {
@@ -39,41 +38,37 @@
 
 .faq-title {
     font-size: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     padding: 15px 0;
 }
 
 .faq-subtitle {
     font-size: 25px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     padding: 20px 25px 10px 25px;
 }
 
 .question {
     font-size: 20px;
-    font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
     padding: 0 25px;
 }
 
 .answer {
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding: 5px 25px 20px 25px;
 }
 
 .answer-list {
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     padding-left: 60px;
     padding-bottom: 20px;
 }
 
 .social-links {
+    color: #0e1b30;
     text-decoration: underline;
 }
 

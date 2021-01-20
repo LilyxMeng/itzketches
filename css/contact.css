@@ -4,7 +4,6 @@
 
 .contact-form {
   display: grid;
-  color: #0e1b30;
 }
 
 .contact {
@@ -21,14 +20,12 @@
 }
 
 .contact-title {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 5px;
 }
 
 .contact-instagram {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   font-weight: normal;
 }
@@ -55,13 +52,11 @@
 }
 
 .name-title {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
 
 #name-input {
-  font-family: 'Source Sans Pro', sans-serif;
   background: #f0f0f0;
   border-radius: 5px;
   font-size: 18px;
@@ -80,13 +75,11 @@
 }
 
 .email-title {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
 
 #email-input {
-  font-family: 'Source Sans Pro', sans-serif;
   background: #f0f0f0;
   border-radius: 5px;
   font-size: 18px;
@@ -105,13 +98,11 @@
 }
 
 .message-title {
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 0 0 8px 0;
 }
 
 #message-input {
-  font-family: 'Source Sans Pro', sans-serif;
   background: #f0f0f0;
   border-radius: 5px;
   height: 145px;
@@ -130,8 +121,6 @@
 }
 
 .submit-title {
-  color: #0e1b30;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   padding: 8px 0;
 }
