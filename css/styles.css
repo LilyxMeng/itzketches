@@ -9,10 +9,11 @@ body {
 }
 
 .navbar {
-  z-index: 9;
+  z-index:999;
   position: fixed;
   width: 100%;
   height: 75px;
+  margin: auto; /*added*/
   background: #bdbdbd;
   display: flex;
   justify-content: space-between;
@@ -66,10 +67,10 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 75px;
-  transform: scale(0.8);
+  padding-bottom: 50px;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 750px) {
   .navbar {
     height: 65px;
   }

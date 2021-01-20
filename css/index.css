@@ -21,6 +21,8 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     align-content: center;
+    margin: auto; /*added*/
+    width: 90%; /*changed width*/
 }
 
 .product {
@@ -31,7 +33,7 @@
 }
 
 .product-img {
-    height: 450px;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
