@@ -9,7 +9,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: center;
   align-content: center;
-  padding-top: 80px;
+  padding-top: 90px;
 }
 
 .product {
