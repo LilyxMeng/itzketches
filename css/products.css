@@ -35,10 +35,17 @@
 }
 
 .price {
+  display: flex;
+  justify-content: center;
   font-weight: 300;
   font-size: 20px;
   padding-top: 5px;
   text-align: center;
+}
+
+.sale {
+  font-style: italic;
+  color: red;
 }
 
 .product-links {
