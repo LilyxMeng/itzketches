@@ -27,6 +27,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    height: 80%;
 }
 
 .product-img {
@@ -46,31 +47,26 @@
     width: 40%;
 }
 
-@media only screen and (max-width: 750px) {
-
+@media only screen and (max-width: 800px) {
     #title {
         width: 90%
     }
-
     #price {
         padding-bottom: 30px;
     }
-
     .content {
         display: grid;
     }
-
     .product-img {
-        width: 85%;
+        width: 80%;
+        height: 80%;
         margin: auto;
     }
-
     .right-side {
-        width: 75%;
-        padding-top: 10px;
+        width: 70%;
         margin: auto;
+        margin-top: -55px;
     }
-
 }
 
 
