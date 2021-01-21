@@ -18,7 +18,7 @@ body {
   height: 75px;
   background: #bdbdbd;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   font-size: 20px;
   border-bottom: 2px solid white;
@@ -31,7 +31,6 @@ body {
   text-decoration: none;
   font-weight: 900;
   font-size: 25px;
-  padding: 0 20px;
   height: 100%;
 }
 
@@ -43,7 +42,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   text-decoration: none;
   font-weight: 600;
-  padding: 0 20px;
   height: 100%;
 }
 
@@ -54,7 +52,6 @@ body {
   justify-content: center;
   text-decoration: none;
   font-weight: 600;
-  padding: 0 40px 0 20px;
   height: 100%;
 }
 
