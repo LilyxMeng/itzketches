@@ -8,6 +8,7 @@ body {
   background: #bdbdbd;
 }
 
+/* does not display properly on mobile */
 .navbar {
   z-index: 999;
   position: fixed;
