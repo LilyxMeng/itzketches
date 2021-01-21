@@ -39,7 +39,7 @@
 .right-side {
     display: grid;
     justify-content: center;
-    padding-top: 2.5%;
+    padding-top: 2.2%;
     font-size: 18px;
     width: 40%;
 }
@@ -47,7 +47,6 @@
 @media only screen and (max-width: 750px) {
 
     #price {
-
         padding-bottom: 30px;
     }
 
