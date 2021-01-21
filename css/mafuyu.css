@@ -56,16 +56,16 @@
     background-color: #f1f1f1;
     padding: 15px 10px;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
     color: #0e1b30;
 }
 
 #add-cart {
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 15px 10px;
-    width:100%;
-    font-size: 15px;
+    width: 100%;
+    font-size: 18px;
     color: #0e1b30;
     margin-bottom: 20px;
 }
@@ -89,5 +89,3 @@
         margin: auto;
     }
 }
-
-
