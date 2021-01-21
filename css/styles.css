@@ -71,12 +71,10 @@ body {
   .navbar {
     height: 65px;
   }
-  #navbar-logo {
+  .navbar-logo, .navbar-links, .navbar-cart{
     font-size: 18px;
   }
-  .navbar-links {
-    font-size: 18px;
-  }
+
   .banner-img {
     padding-top: 65px;
   }
