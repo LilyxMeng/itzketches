@@ -56,3 +56,13 @@
 .product-links:hover {
   color: #2f5b8d;
 }
+
+@media only screen and (max-width: 750px) {
+  .products {
+      width: 80%;
+  }
+
+  .product-img {
+      height: 410px;
+  }
+}

@@ -1,7 +1,7 @@
 .home {
     align-items: center;
     justify-content: center;
-    margin: 0 50px;
+    margin: auto;
     color: #0e1b30;
 }
 
@@ -68,3 +68,13 @@
 .product-links:hover {
     color: #2f5b8d;
 }
+
+@media only screen and (max-width: 750px) {
+    .products {
+        width: 80%;
+    }
+
+    .product-img {
+        height: 410px;
+    }
+  }

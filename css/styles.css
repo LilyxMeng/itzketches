@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: "Source Sans Pro", sans-serif;
@@ -6,6 +7,7 @@
 
 body {
   background: #bdbdbd;
+  margin: auto;
 }
 
 /* does not display properly on mobile */
@@ -70,7 +72,6 @@ body {
 
 @media only screen and (max-width: 750px) {
   .navbar {
-    margin: auto;
     height: 65px;
   }
   .navbar-logo, .navbar-links, .navbar-cart{
