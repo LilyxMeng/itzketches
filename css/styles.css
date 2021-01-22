@@ -10,8 +10,6 @@ body {
   margin: auto;
 }
 
-/* does not display properly on mobile */
-
 .navbar {
   z-index: 999;
   position: fixed;
@@ -64,21 +62,14 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 75px;
-  padding-bottom: 50px;
   opacity: 0.9;
 }
 
 @media only screen and (max-width: 750px) {
-  .navbar {
-    height: 65px;
-  }
   .navbar-logo {
     font-size: 20px;
   }
   .navbar-links, .navbar-cart {
     font-size: 18px;
-  }
-  .banner-img {
-    padding-top: 65px;
   }
 }
